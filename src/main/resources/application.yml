@@ -1,0 +1,15 @@
+server:
+  port : 5000
+
+spring:
+  application:
+    name: Project Management System backend
+  datasource:
+    url : jdbc:postgresql://localhost:5432/java_development_db
+    username: postgres
+    password: bingo
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
